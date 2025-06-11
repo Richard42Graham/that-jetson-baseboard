@@ -1,0 +1,528 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d0b667c0-19d7-4833-bdaa-258f68b11ab9")
+	(paper "A4")
+	(title_block
+		(title "Open Source Educational Baseboard")
+		(date "2020-06-30")
+		(rev "1.1")
+		(company "NVIDIA")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 213.36 175.26) (xy 232.41 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085b2381-bda5-4a3d-9ffe-819cfc23ec95")
+	)
+	(polyline
+		(pts
+			(xy 91.44 180.34) (xy 172.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0c367cdf-cf46-46ba-b7d5-32bb5f790e14")
+	)
+	(polyline
+		(pts
+			(xy 91.44 172.72) (xy 172.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "20c1da91-bced-4ebe-b130-af9d12bdafa2")
+	)
+	(polyline
+		(pts
+			(xy 13.97 176.53) (xy 86.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "31e9654d-a006-438f-a82b-83ba3854a12f")
+	)
+	(polyline
+		(pts
+			(xy 13.97 172.72) (xy 86.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "46c36f01-09e6-4ea1-ac22-04abae5f192b")
+	)
+	(polyline
+		(pts
+			(xy 91.44 176.53) (xy 172.72 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "471ce6b7-827b-4bd4-b3dd-c7303cedefeb")
+	)
+	(polyline
+		(pts
+			(xy 13.97 187.96) (xy 86.36 187.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "571368fe-5f21-4af9-b8f6-e9ddbec2a419")
+	)
+	(polyline
+		(pts
+			(xy 13.97 168.91) (xy 86.36 168.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6708fd8f-04d8-4acd-9663-b39c0b2074c4")
+	)
+	(wire
+		(pts
+			(xy 213.36 177.8) (xy 232.41 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba545b8-5dc4-4e77-815d-42feb484baac")
+	)
+	(polyline
+		(pts
+			(xy 13.97 180.34) (xy 86.36 180.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7af54db0-75d2-43be-a769-3449fda2dae6")
+	)
+	(polyline
+		(pts
+			(xy 91.44 168.91) (xy 172.72 168.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7ee1194d-193f-4736-8bb8-d3a8e4fc2129")
+	)
+	(polyline
+		(pts
+			(xy 91.44 187.96) (xy 172.72 187.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "80ba9ff9-d064-4962-9c86-339c8064571e")
+	)
+	(polyline
+		(pts
+			(xy 91.44 184.15) (xy 172.72 184.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "85745bfe-43e3-4d3c-8ffc-7f709f8d77a9")
+	)
+	(polyline
+		(pts
+			(xy 13.97 184.15) (xy 86.36 184.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b4a90ad0-19e1-4bc0-bb88-fce743c36bc5")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 74.93 182.88 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "0292adf7-edd2-439d-87ea-395bf66f80b0")
+	)
+	(text "I2C EEPROM Configuration"
+		(exclude_from_sim no)
+		(at 99.06 186.69 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "02d7bfb4-db15-48ce-b07f-3fc212468539")
+	)
+	(text "MODE\n"
+		(exclude_from_sim no)
+		(at 105.41 171.45 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cf11f3a-631a-4db4-89c7-06ec7fb3ffe6")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 160.02 179.07 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "16c70588-9f9b-4691-a7f9-5dc1919a2d73")
+	)
+	(text "DESCRIPTION\n"
+		(exclude_from_sim no)
+		(at 24.13 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17413d90-3025-43ae-ad03-8e1255edf01e")
+	)
+	(text "Port 1 & 2 only are non-removable"
+		(exclude_from_sim no)
+		(at 13.97 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20cb113c-1604-4fa1-974f-17f9dfd29999")
+	)
+	(text "NON_REM0 (PIN 28)\n"
+		(exclude_from_sim no)
+		(at 67.31 171.45 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "20d62d95-db50-48ce-b854-a56d0097c800")
+	)
+	(text "NON_REM1 (PIN 22)\n"
+		(exclude_from_sim no)
+		(at 45.72 171.45 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "39a8040e-d1cd-440f-a050-625a8e701941")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 74.93 179.07 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d92ea1a-8ee7-4f7d-ac5d-3d2a4b0ca4e5")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 138.43 182.88 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "44f647eb-3104-4ca3-bb91-5fe293c97489")
+	)
+	(text "All downstream ports removable"
+		(exclude_from_sim no)
+		(at 15.24 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ac56ad1-84d1-4f47-acae-28e057af04e6")
+	)
+	(text "All downstream ports were chosen to be removable to provide more options for the user."
+		(exclude_from_sim no)
+		(at 13.97 191.77 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cb2a03b-8c32-4b11-8467-f71e71a8b4fe")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 53.34 179.07 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e57fc0-2f0d-42eb-aecd-01837d991105")
+	)
+	(text "Configured externally over SMBus\n"
+		(exclude_from_sim no)
+		(at 95.25 175.26 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "72caf94e-b522-4364-a676-a34bc1642e9a")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 138.43 186.69 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c017fac-5bad-41f2-ad6b-dab1f515b8af")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 53.34 175.26 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "819e8e3b-00a5-4ebf-8b51-f6a4c7ffda3f")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 74.93 175.26 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fde8e13-3c33-4e45-8b11-641eab98749e")
+	)
+	(text "Port 1, 2, & 3 are non-removable"
+		(exclude_from_sim no)
+		(at 15.24 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fdf538c-7840-444f-be93-049d638d4cf4")
+	)
+	(text "Port 1 only is non-removable\n"
+		(exclude_from_sim no)
+		(at 16.51 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f03abc1-8545-42bc-b808-4b7d8a461c50")
+	)
+	(text "NONREMOVABLE DEVICES CONFIGURATION\n\n"
+		(exclude_from_sim no)
+		(at 17.78 170.18 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0a7481d-9fad-4421-baf2-1601edd06fac")
+	)
+	(text "Default config with self-powered operation\n"
+		(exclude_from_sim no)
+		(at 91.44 182.88 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d9c19f-48ec-4454-9c43-81c4cf8edab4")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 138.43 179.07 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3d80c18-3ad8-4545-96c3-59d9634ed8ae")
+	)
+	(text "Default configuration was used because it involved fewer outside devices."
+		(exclude_from_sim no)
+		(at 91.44 191.77 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "a96635f6-33e3-48b6-bc17-98474695a5df")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 160.02 186.69 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "b16a45a8-497c-409d-b3ec-2a936074e21c")
+	)
+	(text "MODE CONFIGURATION TRUTH TABLE"
+		(exclude_from_sim no)
+		(at 106.68 166.37 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "b78a65f8-30c8-44c4-b336-aac37c81b6aa")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 160.02 182.88 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbbe159b-57a1-43c0-a9c9-b5f80cacbc3b")
+	)
+	(text "Default config with bus-powered operation\n"
+		(exclude_from_sim no)
+		(at 91.44 179.07 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc830353-6d00-42ff-b79b-c64acb9c6ce5")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 74.93 186.69 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "c83f7d88-42b9-4a63-9198-eeb4e6ed51e4")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 53.34 182.88 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca4d2f6b-9859-4314-92ab-10ef8b3dbff4")
+	)
+	(text "CFG_SEL1 (PIN 25)\n"
+		(exclude_from_sim no)
+		(at 133.35 171.45 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca647982-fe1e-447b-9115-0efb078b01a5")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 53.34 186.69 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce5eee2d-4e8c-436d-8059-178f1a8c04b9")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at 160.02 175.26 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "d29ff909-5435-418a-b07e-739703975efa")
+	)
+	(text "CFG_SEL0 (PIN 24)\n"
+		(exclude_from_sim no)
+		(at 153.67 171.45 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8592a3d-a646-416c-9921-96ed931fb7cc")
+	)
+	(text "0\n"
+		(exclude_from_sim no)
+		(at 138.43 175.26 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb3c422a-a36c-40a2-8b17-5bda8b6b3938")
+	)
+)

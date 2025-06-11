@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "jetson")(type "Legacy")(uri "${KIPRJMOD}/libraries/symbols/cached.lib")(options "")(descr ""))
+  (lib (name "CustomSymbols")(type "Legacy")(uri "${KIPRJMOD}/libraries/symbols/CustomSymbols.lib")(options "")(descr ""))
+  (lib (name "jetson-nano-baseboard")(type "KiCad")(uri "${KIPRJMOD}/libraries/lib/jetson-nano-baseboard.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7361C-33Y5-13")(type "KiCad")(uri "${KIPRJMOD}/AP7361C-33Y5-13.kicad_sym")(options "")(descr ""))
+)

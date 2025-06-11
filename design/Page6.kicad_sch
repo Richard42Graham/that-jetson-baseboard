@@ -1,0 +1,36 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "733ef877-b290-4055-93a8-4b6b4b957b16")
+	(paper "A4")
+	(title_block
+		(title "Open Source Educational Baseboard")
+		(date "2020-06-30")
+		(rev "1.1")
+		(company "NVIDIA")
+	)
+	(lib_symbols)
+	(text "All capacitors rated 6.3V, X5R, COMMON, 10%, 0402\nAll resistors have tolerance 5%, 0402, COMMON\n"
+		(exclude_from_sim no)
+		(at 16.51 21.59 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f0f1c99-262f-46c3-9379-0058f6dbfe64")
+	)
+	(text "LEVEL SHIFTERS AND GPIO HEADER\n"
+		(exclude_from_sim no)
+		(at 100.33 20.32 0)
+		(effects
+			(font
+				(size 5.0038 5.0038)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca2282cc-9f08-4b6c-b07e-12ac7229245c")
+	)
+)

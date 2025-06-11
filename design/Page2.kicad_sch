@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7ff4e505-7233-4c8a-9317-7a25cac5ec8f")
+	(paper "A4")
+	(title_block
+		(title "Open Source Educational Baseboard")
+		(date "2020-06-30")
+		(rev "1.1")
+		(company "NVIDIA")
+	)
+	(lib_symbols)
+)
