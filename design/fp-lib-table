@@ -4,5 +4,4 @@
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/lib")(options "")(descr ""))
   (lib (name "jetson-nano-baseboard-footprints")(type "KiCad")(uri "${KIPRJMOD}/libraries/lib/jetson-nano-baseboard-footprints")(options "")(descr ""))
-  (lib (name "libraries")(type "KiCad")(uri "${KIPRJMOD}/libraries")(options "")(descr ""))
 )
