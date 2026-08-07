@@ -15295,7 +15295,7 @@
 			(uuid "abd6dd37-f4e0-4581-9b3f-441474a3f48a")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005ef2b870"
 					(reference "JP1")
 					(unit 1)
@@ -16038,7 +16038,7 @@
 			(uuid "53d23e67-a9a4-4404-b3e5-7d00ca07f766")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005ef2b870"
 					(reference "J15")
 					(unit 1)
@@ -16312,7 +16312,7 @@
 			(uuid "7f0a1838-f0bf-48ec-bc1f-72c5fc7abe00")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005ef2b870"
 					(reference "#PWR019")
 					(unit 1)

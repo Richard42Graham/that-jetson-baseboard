@@ -12026,7 +12026,7 @@
 			(uuid "ad4a1533-fc87-44f6-b525-183779c3a260")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005efe66f7"
 					(reference "J10")
 					(unit 1)

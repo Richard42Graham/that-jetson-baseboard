@@ -10020,7 +10020,7 @@
 			(uuid "b0e82f1d-7c38-4652-8c04-2735f3ec1040")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005eef7c46"
 					(reference "JP2")
 					(unit 1)
@@ -10158,7 +10158,7 @@
 			(uuid "e1b71269-fa3b-4299-971b-60fcb1a084e7")
 		)
 		(instances
-			(project ""
+			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005eef7c46"
 					(reference "JP3")
 					(unit 1)
