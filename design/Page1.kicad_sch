@@ -2960,16 +2960,6 @@
 		)
 		(uuid "4473d809-90cf-43b7-b8e3-924b6552fe2c")
 	)
-	(text "DNP \nfor MPV"
-		(exclude_from_sim no)
-		(at 97.282 153.162 0)
-		(effects
-			(font
-				(size 0.9906 0.9906)
-			)
-		)
-		(uuid "4b92b2a1-f428-492a-b93a-4f4a26bfc668")
-	)
 	(text "All capacitors rated 6.3V, X5R, COMMON, 10%, 0402\nAll resistors have tolerance 5%, 0402, COMMON\nExcept where noted\n"
 		(exclude_from_sim no)
 		(at 31.75 171.45 0)
@@ -2980,6 +2970,16 @@
 			(justify left bottom)
 		)
 		(uuid "4dd5fb09-5119-468a-8846-39b67da56114")
+	)
+	(text "DNP \nfor MPV\n(not realy needed)"
+		(exclude_from_sim no)
+		(at 97.282 153.924 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+		)
+		(uuid "7ad9fc43-4074-4ed8-b250-42b8096b7fa1")
 	)
 	(text "3V3 AND 1V8 POWER SUPPLY\n"
 		(exclude_from_sim no)
@@ -3113,7 +3113,7 @@
 		)
 		(uuid "e86bf59c-1de7-470d-8005-5082e097e78b")
 	)
-	(text "DNP \nfor MPV"
+	(text "DNP \nfor MPV\n(not realy needed)"
 		(exclude_from_sim no)
 		(at 151.638 146.812 0)
 		(effects

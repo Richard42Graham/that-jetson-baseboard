@@ -1961,6 +1961,16 @@
 		)
 		(uuid "7ee0fc96-bbe8-46f0-807c-1f3d666c4685")
 	)
+	(text "BJT to help with ESD\nCOLD be the N mosfet"
+		(exclude_from_sim no)
+		(at 48.26 157.734 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+		)
+		(uuid "8159edd5-a65c-4b14-bd79-d9ac7f61f672")
+	)
 	(text "DNP \nfor MPV"
 		(exclude_from_sim no)
 		(at 86.614 84.074 0)
