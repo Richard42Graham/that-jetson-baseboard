@@ -7911,6 +7911,12 @@
 		(uuid "4daa5428-a897-491e-8395-161718e35cae")
 	)
 	(junction
+		(at 334.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51645930-5e15-47e4-8bff-7d6ace4d1612")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8179,6 +8185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b055bfa8-8724-49ea-bb7a-8c019a708a56")
+	)
+	(junction
+		(at 334.01 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb3f03c3-a1bc-425d-b7c7-04034f70bd8c")
 	)
 	(junction
 		(at 109.22 72.39)
@@ -8527,6 +8539,16 @@
 			(type default)
 		)
 		(uuid "03a4184f-540c-424a-98fb-c6963b1bda0f")
+	)
+	(wire
+		(pts
+			(xy 334.01 49.53) (xy 346.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04034dfc-3791-4500-87b2-06428b898882")
 	)
 	(wire
 		(pts
@@ -8900,6 +8922,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 80.01) (xy 346.71 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ff60ac-ce05-4566-a339-a51169ea8acb")
+	)
+	(wire
+		(pts
 			(xy -125.73 111.76) (xy -123.19 111.76)
 		)
 		(stroke
@@ -9090,6 +9122,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 54.61) (xy 346.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b774788-ef37-4775-bff2-e21e85e7ade8")
+	)
+	(wire
+		(pts
 			(xy -6.35 102.87) (xy -6.35 105.41)
 		)
 		(stroke
@@ -9147,6 +9189,16 @@
 			(type default)
 		)
 		(uuid "551af7dc-092f-43ef-bf20-511cb43c4fd2")
+	)
+	(wire
+		(pts
+			(xy 334.01 80.01) (xy 346.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582e6258-1371-496e-811d-8541ebbc5355")
 	)
 	(wire
 		(pts
@@ -14727,6 +14779,109 @@
 			(project "baseboard"
 				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005ef2b870"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 346.71 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04d6a443-6a5c-4225-9af1-959943d402b0")
+		(property "Reference" "C4"
+			(at 349.631 57.2516 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 349.631 59.563 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 347.6752 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C2286"
+			(at 346.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "CASE-B_3528"
+			(at 351.79 66.04 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 351.79 68.58 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+			)
+		)
+		(property "MPN" "T491B106M020AT"
+			(at 346.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C2798040"
+			(at 346.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396b6ab8-38bf-4af1-aeaa-62159359a8ee")
+		)
+		(pin "2"
+			(uuid "2836e26c-f2f5-49f9-8017-0ed5084ea8cb")
+		)
+		(instances
+			(project "baseboard"
+				(path "/dcdaf9eb-e0ef-4beb-9486-7183d93d6e4d/00000000-0000-0000-0000-00005ef2b870"
+					(reference "C4")
 					(unit 1)
 				)
 			)
